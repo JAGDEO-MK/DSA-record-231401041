@@ -1,0 +1,18 @@
+#include &lt;stdio.h&gt;
+int main() {
+// Variable to store the age of the candidate
+int age;
+// Prompt the user to enter the candidate&#39;s age
+printf(&quot;Enter your age: &quot;);
+// Read the input age from the user
+scanf(&quot;%d&quot;, &amp;age);
+// Check if the candidate is eligible to vote
+if (age &gt;= 18) {
+// Candidate is eligible to vote
+printf(&quot;Congratulations! You are eligible for casting your vote.\n&quot;);
+} else {
+// Candidate is not eligible to vote
+printf(&quot;You are not eligible for casting your vote.\n&quot;);
+}
+return 0;
+}
